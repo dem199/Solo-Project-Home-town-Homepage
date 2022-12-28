@@ -46,7 +46,7 @@ padding: 10px;
 }
 
 
-.container2{
+.container-two{
     margin: 20px;
 }
 
@@ -64,10 +64,31 @@ padding: 10px;
     
 }
 
-.image2{
+.image-two{
     width: 200px; 
 }
 
 .last-div{
     margin-left: 5px;
+}
+
+
+@media(max-width:480px){
+    .container{
+        flex-direction: column;
+       
+    }
+    .box{
+        width: 380px;
+        padding: 5px;
+    }
+
+    .container-two{
+        margin:5px;
+        align-items: center;
+    }
+
+    .image-two{
+        width: 150px;
+    }
 }
